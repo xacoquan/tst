@@ -1,0 +1,101 @@
+# Calino - Mistweaver - 2020-05-14 19:45 - EU/Kirin Tor
+# SimC Addon 1.12.5
+# Requires SimulationCraft 820-01 or newer
+
+monk="Calino"
+level=120
+race=pandaren
+region=eu
+server=kirin_tor
+role=attack
+professions=alchemy=175/engineering=166
+talents=1233111
+spec=mistweaver
+
+azerite_essences=32:2/300573/17:3/300575/300576/12:4/300577/312927/37:3/312928
+# azerite_essences_available=3:1/4:1/5:2/7:2/12:4/16:3/17:3/20:3/22:3/24:2/25:3/27:3/28:2/32:2/33:1/34:2/35:1/36:2/37:3
+
+head=,id=174132,bonus_id=4824/1517/4786/6511/4775,context=6,azerite_powers=76/582/20/83/13
+neck=,id=158075,bonus_id=4932/4933/6316/1648,azerite_level=89
+shoulder=,id=159339,bonus_id=5448/1647/4786/6512/4775,context=35,azerite_powers=76/193/38/218/13
+back=,id=169223,bonus_id=6283/1472,context=11
+chest=,id=174136,bonus_id=4823/1502/4786/6507/4775,context=5,azerite_powers=248/76/19/218/13
+wrist=,id=159300,gem_id=168641,bonus_id=6536/4802/6516/6515/1637/4786,context=16
+hands=,id=168985,bonus_id=6536/6516/6515/1522/4786,context=16
+waist=,id=168986,bonus_id=6536/6578/6579/6558/6513/1532/4786,context=35
+legs=,id=159338,bonus_id=6536/6516/6513/1637/4786,context=16
+feet=,id=174144,bonus_id=4823/6516/6513/1502/4786,context=5
+finger1=,id=159462,enchant_id=6109,gem_id=168641,bonus_id=6536/4802/6516/6515/1637/4786,context=16
+finger2=,id=174533,enchant_id=6109,gem_id=168641,bonus_id=4823/1808/6516/6515/1502/4786,context=5
+trinket1=,id=174044,bonus_id=4824/6513/1517/4786,context=6
+trinket2=,id=173944,bonus_id=4824/6515/1517/4786,context=6
+main_hand=,id=172198,enchant_id=5963,bonus_id=4823/6570/6578/6579/6513/1502/4786,context=5
+off_hand=,id=172196,enchant_id=5965,bonus_id=4823/6541/6578/6579/6513/1502/4786,context=5
+
+### Gear from Bags
+#
+# Chapeau de capitaine des Lamineurs (475)
+# head=,id=155888,bonus_id=5448/1647/4786/6511,context=35,azerite_powers=
+#
+# Espauliers de la grande convergence (475)
+# shoulder=,id=174133,bonus_id=4823/1502/4786/6509/4775,context=5,azerite_powers=248/582/20/218/13
+#
+# Robe sombrecœur (465)
+# chest=,id=174131,bonus_id=4823/1502/4786/6507/4775,context=5,azerite_powers=76/582/30/15/13
+#
+# Manchettes de la gueule irrassasiable (470)
+# wrist=,id=173480,bonus_id=6412/6515/6578/6579/6546/1527/4786,context=55
+#
+# Couvre-bras du gladiateur corrompu en cuir (430)
+# wrist=,id=172650,bonus_id=6360/41/6389/6578/6579/6437/6455/6513/1542/4786,context=8
+#
+# Poignes en peau de requin (465)
+# hands=,id=155889,bonus_id=6536/6578/6579/6480/6455/6515/1637/4786,context=16
+#
+# Protège-mains de la gueule irrassasiable (470)
+# hands=,id=173492,bonus_id=6412/6515/6578/6579/6548/1527/4786,context=55
+#
+# Ceinture de la gueule irrassasiable (465)
+# waist=,id=173816,bonus_id=6412/6513/6578/6579/6563/1522/4786,context=54
+#
+# Jambières en peau de crapaud chancreux (475)
+# legs=,id=159345,bonus_id=6536/6578/6579/6560/6515/1647/4786,context=35
+#
+# Bottes de la gueule irrassasiable (470)
+# feet=,id=173477,bonus_id=6412/6513/6578/6579/6485/6461/1527/4786,context=55
+#
+# Chevalière céruléenne terne (455)
+# finger1=,id=158318,bonus_id=5008/4802/6516/6515/1627/4786,context=16
+#
+# Boucle logique de maintenance (465)
+# finger1=,id=169076,enchant_id=6108,bonus_id=6536/6516/6513/1522/4786,context=16
+#
+# Bague du forban nomade (465)
+# finger1=,id=162541,enchant_id=6108,bonus_id=6536/41/6516/6513/1637/4786,context=16
+#
+# Chevalière du seigneur Malvoie (465)
+# finger1=,id=158362,enchant_id=6108,bonus_id=6536/40/6516/6513/1637/4786,context=16
+#
+# Bague tissépine (465)
+# finger1=,id=162548,bonus_id=6536/6516/6513/1637/4786,context=16
+#
+# Chevalière céruléenne terne (465)
+# finger1=,id=158318,bonus_id=6536/6516/6513/1637/4786,context=16
+#
+# Coagulum suintant (460)
+# trinket1=,id=174180,bonus_id=4823/6513/1502/4786,context=5
+#
+# Boîte à musique de dame Malvoie (475)
+# trinket1=,id=159631,bonus_id=6536/6515/1647/4786,context=35
+#
+# Manifeste de la folie (470)
+# trinket1=,id=174103,bonus_id=4823/6513/1502/4786,context=5
+#
+# Shgla’yos, Malveillance astrale (470)
+# main_hand=,id=174108,bonus_id=4823/6553/6578/6579/6513/1502/4786,context=5
+#
+# Boutefeu lance-flammes (465)
+# main_hand=,id=159129,bonus_id=6536/6578/6579/6438/6462/6513/1637/4786,context=16
+#
+# Uhnish Vwah (460)
+# off_hand=,id=172190,bonus_id=4823/6516/6515/1502/4786,context=5
